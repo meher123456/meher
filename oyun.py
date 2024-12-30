@@ -5,7 +5,7 @@ meme_dict = {
             }
 word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
 if word in meme_dict.keys():
-    print(word,)
+            print(meme_dict[word])
     
 else:
     print("Boyle bir soz yok!")
